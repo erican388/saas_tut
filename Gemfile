@@ -33,7 +33,8 @@ gem 'bootstrap-sass', '3.3.7'
 
 # use font awesome sass gem
 gem 'font-awesome-sass', '4.6.2'
-
+# use hirb for better db display
+gem 'hirb', '0.7.3'
 group :development, :test do
   gem 'sqlite3'
   # Use Puma as the app server
